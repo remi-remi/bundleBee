@@ -1,0 +1,8 @@
+# installation de bundler
+gem install bundler
+
+# init du bundler
+bundle init
+
+# le Gemfile contient la liste des dependances avec le meme nom que dans des require, une fois ajoutée au bundle, il faut les installer avec bundler install
+# example: gem 'tty-prompt'
