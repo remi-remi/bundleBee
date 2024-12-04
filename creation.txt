@@ -6,3 +6,8 @@ bundle init
 
 # le Gemfile contient la liste des dependances avec le meme nom que dans des require, une fois ajoutée au bundle, il faut les installer avec bundler install
 # example: gem 'tty-prompt'
+
+# bundle install seras utile pour les utilisateurs mais je devrais aussi utiliser :
+yard gems
+# pour installer les docs pour l'IDE
+
